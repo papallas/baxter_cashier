@@ -508,42 +508,18 @@ html { box-sizing: border-box; }
   
   
   
-  nav .p-video { border-color: #0fbfcf; }
-  #video { background-color: #0fbfcf !important; color: #f8f8f8; }
-  #video a { color: #f8f8f8; }
-  #video .sectiondivider { color: #0fbfcf; }
-
-  
-  
-  
-  nav .p-updating { border-color: #c869bf; }
-  #updating { background-color: #c869bf !important; color: #f8f8f8; }
-  #updating a { color: #f8f8f8; }
-  #updating .sectiondivider { color: #c869bf; }
-
-  
-  
-  
-  nav .p-usage { border-color: #63BD2F; }
-  #usage { background-color: #63BD2F !important; color: #f8f8f8; }
-  #usage a { color: #f8f8f8; }
-  #usage .sectiondivider { color: #63BD2F; }
-
-  
-  
-  
-  nav .p-details { border-color: #fab125; }
-  #details { background-color: #fab125 !important; color: #111111; }
+  nav .p-details { border-color: #d6d14f; }
+  #details { background-color: #d6d14f !important; color: #111111; }
   #details a { color: #111111; }
-  #details .sectiondivider { color: #fab125; }
+  #details .sectiondivider { color: #d6d14f; }
 
   
   
   
-  nav .p-why { border-color: #49a7e9; }
-  #why { background-color: #49a7e9 !important; color: #f8f8f8; }
-  #why a { color: #f8f8f8; }
-  #why .sectiondivider { color: #49a7e9; }
+  nav .p-video { border-color: #49a7e9; }
+  #video { background-color: #49a7e9 !important; color: #f8f8f8; }
+  #video a { color: #f8f8f8; }
+  #video .sectiondivider { color: #49a7e9; }
 
   
   

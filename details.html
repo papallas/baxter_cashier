@@ -1,57 +1,23 @@
-<h2>Setup as user homepage</h2>
+<h2>Python 🐍 all the way</h2>
 
-<ul>
-  <li>Go click <strong>fork</strong> on the <a href="https://github.com/t413/SinglePaged">github project page</a></li>
-  <li>Rename your new repository to <code class="highlighter-rouge">**username**.github.io</code>. (click settings in the right column)</li>
-  <li>Clone your repository, <strong>cd into the project</strong></li>
-  <li>Run <code class="highlighter-rouge">git checkout publish &amp;&amp; git branch -m master &amp;&amp; git push -u origin master &amp;&amp; git branch -D gh-pages</code> to get the <em>publish</em> branch as master for a clean, empty starting point.</li>
-  <li>On your github project page go to <em>settings</em> again and change your <strong>default branch</strong> to <strong><em>master</em></strong></li>
-  <li>Run <code class="highlighter-rouge">git push origin --delete gh-pages</code> to delete your remote’s development branch</li>
-</ul>
-
-<p>Now hop over to <a href="#usage">Usage</a> to get it running with your own stuff!</p>
-
-<p><strong>When you publish changes use <code class="highlighter-rouge">git push -u origin master</code></strong></p>
+<p>I am entirly written in Python, although my creatros needed some C++ and Matlab
+for some computation and image processing.</p>
 
 <hr />
 
-<h2>Setup as standalone project page</h2>
-
+<h2>How I work ⚙️</h2>
 <ul>
-  <li>Go click <strong>fork</strong> on the <a href="https://github.com/t413/SinglePaged">github project page</a></li>
-  <li>Rename your new repository to <code class="highlighter-rouge">whatever you want</code>. (click settings in the right column)
-    <ul>
-      <li>It will go live at yourusername.github.io/<strong>WhateverYouWant</strong></li>
-    </ul>
-  </li>
-  <li>Clone your repository, cd into the project</li>
-  <li>Run <code class="highlighter-rouge">git checkout publish &amp;&amp; git branch -D gh-pages &amp;&amp; git branch -m gh-pages &amp;&amp; git push -uf origin gh-pages</code> to swap the <em>publish</em> and <em>gh-pages</em> branch.</li>
+  <li>I am detecting new customers entering my area, and I know where their hands are.</li>
+  <li>I accept orders for sweets and I am delivering them to you</li>
+  <li>I will ask you for money (not real one; in my shop we have only Baxter Banknotes)</li>
+  <li>I will accept your payment by recognising the money notes you gave me.</li>
 </ul>
 
-<p>Now hop over to <a href="#usage">Usage</a> to get it running with your own stuff!</p>
-
-<p><strong>When you publish changes use <code class="highlighter-rouge">git push -u origin gh-pages</code></strong></p>
+<p>Please don’t try to trick me, I am well programmed from my creator to avoid common tricks and hacks! 😇</p>
 
 <hr />
 
-<h2>Setup inside existing project</h2>
+<h2>Baxter Banknotes 💸</h2>
+<h3>Here are the banknotes I am using with my customers</h3>
 
-<p>This is the most complicated use-case .. but it’s the coolest.
-Say you’ve got your kickass project <code class="highlighter-rouge">github.com/t413/kicker</code> and want to have
-some web presence to post about on <a href="http://news.ycombinator.com">hacker news</a>.
-This will create an orphan branch called <code class="highlighter-rouge">gh_pages</code> in your repository
-where you can publish changes, posts, images, and such. It won’t alter your code at all.</p>
-
-<ul>
-  <li><code class="highlighter-rouge">cd</code> into your project on the command line</li>
-  <li>use <code class="highlighter-rouge">git remote add -t publish singlepage git@github.com:t413/SinglePaged.git</code> to get access to this repository.</li>
-  <li>use <code class="highlighter-rouge">git fetch singlepage publish:gh-pages</code> to fetch the remote branch</li>
-  <li>use <code class="highlighter-rouge">git branch --set-upstream gh-pages singlepage/publish &amp;&amp; git checkout gh-pages;</code>
-This creates and checks out an orphan branch called gh-pages that tracks the original and lets you make changes.</li>
-  <li>When you run <code class="highlighter-rouge">git push gh-pages:origin/gh-pages</code> it’ll be live at <em>yourusername.github.io/repositoryName</em></li>
-</ul>
-
-<p>Now hop over to <a href="#usage">Usage</a> to get it running with your own stuff!</p>
-
-<p><strong>When you publish changes use <code class="highlighter-rouge">git push -u origin gh-pages</code></strong></p>
-
+<center><img src="img/five_bill.png" width="300" /><img src="img/one_bill.png" width="300" /></center>
